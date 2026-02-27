@@ -1,0 +1,22 @@
+# Core data ingestion + storage
+nfl_data_py==0.3.3
+pandas==1.5.3
+numpy==1.26.4
+pyarrow==23.0.1
+SQLAlchemy==2.0.46
+
+# Modeling + evaluation
+scikit-learn==1.8.0
+xgboost==3.2.0
+
+# Dashboard + visualization
+streamlit==1.54.0
+plotly==6.5.2
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Developer quality-of-life
+python-dotenv==1.2.1
+pytest==8.4.2
+ruff==0.14.3
+lxml==6.0.2

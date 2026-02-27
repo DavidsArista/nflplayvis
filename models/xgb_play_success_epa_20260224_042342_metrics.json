@@ -1,0 +1,128 @@
+{
+  "model_name": "xgb_play_success_epa",
+  "run_ts": "2026-02-24T04:23:42.564556+00:00",
+  "target_mode": "epa_positive",
+  "feature_count": 109,
+  "train_rows": 105010,
+  "validation_rows": 35474,
+  "test_rows": 34903,
+  "best_iteration": 582,
+  "validation_metrics": {
+    "rows": 35474.0,
+    "positive_rate": 0.4263122286745222,
+    "log_loss": 0.35808259522996794,
+    "brier_score": 0.11775410175323486,
+    "accuracy_at_0_5": 0.8211084174324857,
+    "roc_auc": 0.9116361505645355
+  },
+  "test_metrics": {
+    "rows": 34903.0,
+    "positive_rate": 0.43973297424290175,
+    "log_loss": 0.36587013885503517,
+    "brier_score": 0.12106464058160782,
+    "accuracy_at_0_5": 0.815345385783457,
+    "roc_auc": 0.9075540130691306
+  },
+  "top_feature_importance_gain": [
+    {
+      "feature": "feat_air_yards",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_backed_up",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_deep_pass",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_defteam_score",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_defteam_timeouts_remaining",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_down_1",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_down_2",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_down_3",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_down_4",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_drive_play_index",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_drive_play_pct",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_drive_progress_yards",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_drive_score_swing",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_drive_total_plays",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_early_down",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_field_pos_value",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_game_seconds_pct",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_game_seconds_remaining",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_garbage_time",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_goal_line",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_goal_to_go",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_half_seconds_pct",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_half_seconds_remaining",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_inside_ten",
+      "gain_importance": 0.0
+    },
+    {
+      "feature": "feat_is_qb_opportunity",
+      "gain_importance": 0.0
+    }
+  ]
+}

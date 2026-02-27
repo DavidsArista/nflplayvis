@@ -1,0 +1,128 @@
+{
+  "model_name": "xgb_play_success_epa",
+  "run_ts": "2026-02-24T04:26:01.994445+00:00",
+  "target_mode": "epa_positive",
+  "feature_count": 109,
+  "train_rows": 105010,
+  "validation_rows": 35474,
+  "test_rows": 34903,
+  "best_iteration": 582,
+  "validation_metrics": {
+    "rows": 35474.0,
+    "positive_rate": 0.4263122286745222,
+    "log_loss": 0.35808259522996794,
+    "brier_score": 0.11775410175323486,
+    "accuracy_at_0_5": 0.8211084174324857,
+    "roc_auc": 0.9116361505645355
+  },
+  "test_metrics": {
+    "rows": 34903.0,
+    "positive_rate": 0.43973297424290175,
+    "log_loss": 0.36587013885503517,
+    "brier_score": 0.12106464058160782,
+    "accuracy_at_0_5": 0.815345385783457,
+    "roc_auc": 0.9075540130691306
+  },
+  "top_feature_importance_gain": [
+    {
+      "feature": "feat_qb_no_snap_prior",
+      "gain_importance": 547.2105102539062
+    },
+    {
+      "feature": "feat_run_location_unknown",
+      "gain_importance": 345.67047119140625
+    },
+    {
+      "feature": "feat_yards_after_catch",
+      "gain_importance": 233.53196716308594
+    },
+    {
+      "feature": "feat_screen_proxy",
+      "gain_importance": 201.86264038085938
+    },
+    {
+      "feature": "feat_early_down",
+      "gain_importance": 131.69654846191406
+    },
+    {
+      "feature": "feat_qb_dropback",
+      "gain_importance": 99.26709747314453
+    },
+    {
+      "feature": "feat_sack",
+      "gain_importance": 98.4155044555664
+    },
+    {
+      "feature": "feat_long_yardage",
+      "gain_importance": 97.85148620605469
+    },
+    {
+      "feature": "feat_air_yards",
+      "gain_importance": 90.27367401123047
+    },
+    {
+      "feature": "feat_is_rb_opportunity",
+      "gain_importance": 86.88006591796875
+    },
+    {
+      "feature": "feat_money_down",
+      "gain_importance": 71.74908447265625
+    },
+    {
+      "feature": "feat_is_qb_opportunity",
+      "gain_importance": 67.73687744140625
+    },
+    {
+      "feature": "feat_drive_total_plays",
+      "gain_importance": 64.11124420166016
+    },
+    {
+      "feature": "feat_rush",
+      "gain_importance": 61.8349609375
+    },
+    {
+      "feature": "feat_pass",
+      "gain_importance": 60.15779495239258
+    },
+    {
+      "feature": "feat_drive_play_pct",
+      "gain_importance": 55.656707763671875
+    },
+    {
+      "feature": "feat_ydstogo_log",
+      "gain_importance": 49.302730560302734
+    },
+    {
+      "feature": "feat_yardline_100",
+      "gain_importance": 38.68437957763672
+    },
+    {
+      "feature": "feat_field_pos_value",
+      "gain_importance": 38.2173957824707
+    },
+    {
+      "feature": "feat_ydstogo",
+      "gain_importance": 36.090667724609375
+    },
+    {
+      "feature": "feat_down_4",
+      "gain_importance": 34.1117057800293
+    },
+    {
+      "feature": "feat_down_1",
+      "gain_importance": 33.15852737426758
+    },
+    {
+      "feature": "feat_deep_pass",
+      "gain_importance": 30.825088500976562
+    },
+    {
+      "feature": "feat_qb_scramble",
+      "gain_importance": 28.639389038085938
+    },
+    {
+      "feature": "feat_goal_to_go",
+      "gain_importance": 21.9924373626709
+    }
+  ]
+}
