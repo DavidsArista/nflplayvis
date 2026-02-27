@@ -110,8 +110,10 @@ streamlit run app/streamlit_app.py
 
 ### 2) Expected dashboard sections
 
-- `Rankings`: filter by season/position/team, sort by value metric, view top players.
-- `Player Explorer`: select a player and inspect season-over-season value/tier trends.
+- `Overview`: league snapshot by season, team market leaders, and position value distributions.
+- `Rankings`: filter by season/position/team, sort by value metric, and download top-player cuts.
+- `Player Explorer`: inspect season-over-season value/tier trends for any player.
+- `Player Compare`: side-by-side comparison with head-to-head radar metrics.
 - `Validation`: review Pro Bowl alignment and benchmark-correlation diagnostics.
 - `Model`: check training runs, holdout metrics, and top feature importance.
 
@@ -121,6 +123,7 @@ Use the sidebar:
 
 - `SQLite DB Path` should point to `data/nfl_valuation.db`.
 - `Model Name` should include `xgb_play_success_epa`.
+- `Refresh Data Cache` can be used after pipeline writes to SQLite.
 
 If data is connected correctly:
 
