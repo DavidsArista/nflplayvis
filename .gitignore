@@ -8,14 +8,27 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
 
 # Virtual environments
 .venv/
 venv/
+.env
+.env.*
 
 # Local data artifacts
 data/
 !data/.gitkeep
+
+# Generated model artifacts
+models/*.joblib
+models/*_metrics.json
+!models/.gitkeep
 
 # IDE/editor
 .DS_Store
